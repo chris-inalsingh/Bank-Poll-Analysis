@@ -58,9 +58,7 @@ print(f'Greatest Decrease in Profits: {date_decrease} (${greatest_decrease})')
     
         
 #Export Analysis
-output_file = os.path.join("analysis","analysis.txt")
-
-print(output_file)   
+output_file = os.path.join("analysis","analysis.txt")   
 with open(output_file, 'w') as datafile:
     datafile.write('Financial Analysis\n')
     datafile.write('----------------------------\n')
